@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Restaurantmanagement
 {
-    class Order
+    public class Orders
     {
-        public int No { get; set; }
+        public string No { get; set; }
         public string OrderItem { get; set; }
         public double TotalAmount { get; set; }
         public int Date { get; set; }

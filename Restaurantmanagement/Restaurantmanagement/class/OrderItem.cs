@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Restaurantmanagement
 {
-    class OrderItem
+    public class OrderItem
     {
         public string MenuItem { get; set; }
         public double Count { get; set; }
