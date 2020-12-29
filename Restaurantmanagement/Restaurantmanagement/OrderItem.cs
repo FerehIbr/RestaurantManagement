@@ -6,5 +6,8 @@ namespace Restaurantmanagement
 {
     class OrderItem
     {
+        public string MenuItem { get; set; }
+        public double Count { get; set; }
+
     }
 }

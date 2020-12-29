@@ -4,9 +4,11 @@ using System.Text;
 
 namespace Restaurantmanagement
 {
-    enum Category
+    public enum Category
     {
-
-
-    }
+        soup,
+        mainfood,
+        drink,
+        desert
+    };
 }
