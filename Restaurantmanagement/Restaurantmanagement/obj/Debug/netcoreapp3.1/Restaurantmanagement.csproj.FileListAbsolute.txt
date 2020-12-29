@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\bin\Debug\netcoreapp3.1\Restaurantmanagement.exe
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\bin\Debug\netcoreapp3.1\Restaurantmanagement.deps.json
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\bin\Debug\netcoreapp3.1\Restaurantmanagement.runtimeconfig.json
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\bin\Debug\netcoreapp3.1\Restaurantmanagement.runtimeconfig.dev.json
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\bin\Debug\netcoreapp3.1\Restaurantmanagement.dll
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\bin\Debug\netcoreapp3.1\Restaurantmanagement.pdb
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.csprojAssemblyReference.cache
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.AssemblyInfo.cs
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.dll
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.pdb
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.genruntimeconfig.cache
