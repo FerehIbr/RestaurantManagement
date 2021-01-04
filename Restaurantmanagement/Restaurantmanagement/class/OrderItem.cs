@@ -7,7 +7,13 @@ namespace Restaurantmanagement
     public class OrderItem
     {
         public string MenuItem { get; set; }
-        public double Count { get; set; }
+        public int Count { get; set; }
 
+
+        public OrderItem(string menuitem,int count)
+        {
+            this.Count = count;
+            this.MenuItem = menuitem;
+        }
     }
 }

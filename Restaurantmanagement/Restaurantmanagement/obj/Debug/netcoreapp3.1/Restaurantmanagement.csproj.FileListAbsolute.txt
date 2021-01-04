@@ -10,3 +10,4 @@ C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanage
 C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.dll
 C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.pdb
 C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.genruntimeconfig.cache
+C:\Users\user\Desktop\RestaurantManagement\Restaurantmanagement\Restaurantmanagement\obj\Debug\netcoreapp3.1\Restaurantmanagement.csprojAssemblyReference.cache
