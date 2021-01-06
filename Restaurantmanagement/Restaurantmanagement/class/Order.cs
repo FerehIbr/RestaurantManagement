@@ -10,7 +10,6 @@ namespace Restaurantmanagement
         public string OrderItem { get; set; }
         public double TotalAmount { get; set; }
         public string Date { get; set; }
-
-        
+        public object OrderItems { get; internal set; }
     }
 }

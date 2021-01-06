@@ -2,49 +2,64 @@
 using System.Collections.Generic;
 using System.Text;
 
+
+
 namespace Restaurantmanagement
 {
     class RestaurantCentral : IRestaurantManager
     {
         public List<MenuItem> menuitems { get; set; }
-        public List<Orders> orders { get; set ; }
-        public List<OrderItem> orderItems { get; set; }
-        List<MenuItem> IRestaurantManager.menuitems { get; set; }
-        List<Orders > Orders { get; set; }
+        public List<Orders> orders { get; set; }
 
-        public void AddMenuItem(string name, double price, Category category)
+        public void AddMenuItem(string no,string name, double price, Category category)
         {
-            
+            MenuItem menuitem = new MenuItem(no,name, price, category);
+            this.menuitems.Add(menuitem);
         }
 
-        public void AddOrder(MenuItem menuItem, int count)
+        public void AddOrder(string menuItem, string count)
         {
-            
+            OrderItem orderItem = new OrderItem(menuItem, count);
+            Orders orders = new Orders();
+            orders.OrderItems.Add(orderItem);
+            this.orders.Add(orders);
+           
+
         }
 
         public void EditMenuItem(string name, double price, string no)
         {
-            
+            foreach ( var c in menuitems)
+            {
+                if()
+                {
+
+                }
+            }
         }
 
-        public List<Orders> GetOrdersByDate(DateTime date) 
+        public List<Orders> GetOrderByDate(DateTime date)
         {
-            
-        }
-
-        public Orders GetOrdersByNo(string No)
-        {
-            
+            List<Orders> newList = new List<Orders>();
         }
 
         public List<Orders> GetOrdersByDateInterval(DateTime dateTime, DateTime dateTime1)
         {
-            
+            List<Orders> newList = new List<Orders>();
+        }
+
+        public Orders GetOrdersByNo(string No)
+        {
+            Orders orders = new Orders();
         }
 
         public List<OrderItem> GetOrdersByPriceInterval(double price, double price1)
         {
-            
+            List<OrdersItem> newList = new List<OrdersItem>();
+            foreach (var item in this.orders)
+            {
+
+            }
         }
 
         public List<MenuItem> MenuItemsSearch(string Information)
@@ -57,24 +72,19 @@ namespace Restaurantmanagement
             
         }
 
-        public List<MenuItem> MenuItemsSortByPrice(double price, double price1)
+        public  List<MenuItem> MenuItemsSortByPrice(double price, double price1)
         {
             
         }
 
         public void RemoveMenuItem(string No)
         {
-           
+            
         }
 
         public void RemoveOrder(int no)
         {
-            
-        }
-
-        public List<Orders> GetOrderByDate(DateTime date)
-        {
-            
+            throw new NotImplementedException();
         }
     }
 }
