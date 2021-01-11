@@ -8,78 +8,62 @@ namespace Restaurantmanagement
 {
     class RestaurantCentral : IRestaurantManager
     {
-        public List<MenuItem> menuitems { get; set; }
-        public List<Orders> orders { get; set; }
+        public List<MenuItem> menuitems { get ; set; }
+        public List<Orders> orders { get ; set ; }
 
-        public void AddMenuItem(string no,string name, double price, Category category)
+        public void AddMenuItem(string no, string name, double price, Category category)
         {
-            MenuItem menuitem = new MenuItem(no,name, price, category);
-            this.menuitems.Add(menuitem);
+            throw new NotImplementedException();
         }
 
-        public void AddOrder(string menuItem, string count)
+        public void AddOrder(MenuItem menuItem, int count)
         {
-            OrderItem orderItem = new OrderItem(menuItem, count);
-            Orders orders = new Orders();
-            orders.OrderItems.Add(orderItem);
-            this.orders.Add(orders);
-           
-
+            throw new NotImplementedException();
         }
 
         public void EditMenuItem(string name, double price, string no)
         {
-            foreach ( var c in menuitems)
-            {
-                if()
-                {
-
-                }
-            }
+            throw new NotImplementedException();
         }
 
         public List<Orders> GetOrderByDate(DateTime date)
         {
-            List<Orders> newList = new List<Orders>();
+            throw new NotImplementedException();
         }
 
         public List<Orders> GetOrdersByDateInterval(DateTime dateTime, DateTime dateTime1)
         {
-            List<Orders> newList = new List<Orders>();
+            throw new NotImplementedException();
         }
 
         public Orders GetOrdersByNo(string No)
         {
-            Orders orders = new Orders();
+            throw new NotImplementedException();
         }
 
         public List<OrderItem> GetOrdersByPriceInterval(double price, double price1)
         {
-            List<OrdersItem> newList = new List<OrdersItem>();
-            foreach (var item in this.orders)
-            {
-
-            }
+            throw new NotImplementedException();
         }
 
         public List<MenuItem> MenuItemsSearch(string Information)
         {
-            
+            throw new NotImplementedException();
         }
 
         public List<MenuItem> MenuItemsSortByCategory(Category category)
         {
-            
+            throw new NotImplementedException();
         }
 
-        public  List<MenuItem> MenuItemsSortByPrice(double price, double price1)
+        public List<MenuItem> MenuItemsSortByPrice(double price, double price1)
         {
-            
+            throw new NotImplementedException();
         }
 
         public void RemoveMenuItem(string No)
         {
-            
+            throw new NotImplementedException();
         }
 
         public void RemoveOrder(int no)
